@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <title>Arcane - Ekko</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url(ekkofundo2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: inset 0px 10px 50px 50px rgba(0, 0, 0, 0.669);
+        }
+
+        img {
+            margin: 13px;
+            border: 2px solid rgb(37, 37, 35);
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.562);
+        }
+
+        .principal {
+            padding: 10px;
+            border: 2px solid rgb(37, 37, 35);
+            border-radius: 15px;
+            background-color: rgba(0, 0, 0, 0.65);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+            max-width: 1200px;
+            text-align: justify;
+        }
+
+        .principal p {
+            margin-top: 0;
+            font-size: 20px;
+            padding: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(222, 223, 224);
+            text-shadow: 2px 2px rgba(26, 25, 25, 0.676);
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Anton SC', serif;
+            font-size: 50px;
+            text-shadow: 2px 2px rgba(0, 0, 0, 0.562);
+            color: rgb(222, 223, 224);
+        }
+
+        #city {
+            text-shadow: 1px 1px rgba(0, 0, 0, 0.562);
+            margin-top: 0;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        @media (max-width: 912px) {
+            .principal {
+                flex-direction: column;
+                padding: 20px;
+                width: 90vw;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            #city {
+                font-size: 22px;
+            }
+
+            .principal p {
+                font-size: 18px;
+                padding: 20px;
+            }
+
+            img {
+                width: 220px;
+                height: 220px;
+                margin: 10px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .principal {
+                flex-direction: column;
+                width: 80vw;
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            #city {
+                font-size: 20px;
+            }
+
+            .principal p {
+                font-size: 16px;
+                padding: 15px;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">Ekko</h1>
+    <p id="city" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">Zaun
+    </p>
+    <div class="principal" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="50">
+        <img src="ekko3.jpg">
+        <p>&nbsp;&nbsp;&nbsp;Ekko, a standout character in Arcane, is a resourceful and inventive young leader from
+            Zaun. Known as "The Boy Who Shattered Time," Ekko has an exceptional talent for mechanics and technology,
+            creating unique gadgets from scraps and discarded parts. Despite growing up in the harsh environment of
+            Zaun, Ekko maintains a hopeful and resilient spirit, driven by a deep desire to protect his community. He
+            plays a key role in the resistance against Piltover’s control, using his agility, intellect, and inventions
+            to outmaneuver powerful opponents.</p>
+    </div>
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
